@@ -92,7 +92,7 @@ class AuthenticationException extends Exception
      */
     public static function invalidCredentials(): self
     {
-        return new self(self::INVALID_CREDENTIALS, 'Invalid credentials');
+        return new self(self::INVALID_CREDENTIALS, 'Invalid username or password');
     }
 
     /**
