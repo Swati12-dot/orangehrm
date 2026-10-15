@@ -16,7 +16,7 @@
 
 .orangehrm-buzz-layout {
   justify-content: center;
-  grid-template-columns: minmax(240px, 640px) minmax(0, 375px);
+  grid-template-columns: minmax(250px, 650px) minmax(0, 390px);
 
   @media screen and (min-width: 1920px) {
     gap: 2rem;
